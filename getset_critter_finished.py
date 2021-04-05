@@ -1,6 +1,6 @@
 # GetSet Critter
-# Demonstrates using getter and setter methods to access 
-#   and assign attribute values
+# Demonstrates using accessor and mutator methods to access 
+#   and assign attribute values (a.k.a. getter and setter methods).
 
 # CHALLENGE: Write a class Critter such that Critters have custom names. Also,
 #               provide a method which allows Critters to print thier name and
@@ -14,17 +14,21 @@ class Critter:
         self.color = "turquoise"
     
     # not a GETTER method; in general, avoid printing in functions/methods
-    #   if possible. rather, write a get method and let the printing happen
-    #   elsewhere.
+    #   if possible. Rather, write a get method and let the printing happen
+    #   at the discretion of the programmer.
     def talk(self):
-        """makes Critter talk and say its name"""
+        """makes a Critter talk and say its name"""
         print("\nHi, I'm", self.name)
-
-    def get_name(self):  # GETTER: accessor method to GET(return) an attribute
+    
+    # ACCESSOR or GETTER METHOD: accessor method to GET(return) an attribute.
+    #   Follows the naming convention 'get_attribute'.
+    def get_name(self):  
         """returns the Critter's name"""
         return self.name 
-
-    def set_name(self, new_name = ""): # SETTER: mutator method to SET(reassign) an attribute to a new value
+    
+    # MUTATOR or SETTER METHOD: mutator method to SET(reassign) an attribute to a new value.
+    #   Follows the naming convention 'set_attribute'.
+    def set_name(self, new_name = ""): 
         """changes the name of a Critter"""
         if new_name and isinstance(new_name, str): 
             self.name = new_name 
