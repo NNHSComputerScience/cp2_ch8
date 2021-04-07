@@ -2,9 +2,9 @@
 # Demonstrates using accessor and mutator methods to access 
 #   and assign attribute values (a.k.a. getter and setter methods).
 
-# CHALLENGE: Write a class Critter such that Critters have custom names. Also,
-#               provide a method which allows Critters to print thier name and
-#               a String method.
+# CHALLENGES:    1. Write a class Critter such that Critters have custom names.
+#               2. Write a String method for the Critter.
+#               3. Provide a 'talk' method which allows Critters to print thier name
 
 class Critter:
     """A virtual pet"""
