@@ -1,11 +1,14 @@
-# Chapter 8 Notes: Object Oriented Programming
+# Unit 3 Notes: Object Oriented Programming
 # simple_critter.py
 # Description: Demonstrates a basic class and objects. Introduces the constructor method.
 
 # Object Oriented Programming (OOP) - A popular style of programming in which objects are created that contain both data (attributes) and operations (methods).
 
-# OBJECT - An object is a software model often used to model a thing or concept in the real world. It bundles together the data (attributes) and the operations (methods) that are relevant for that thing or concept.  Created from a CLASS.
-# CLASS - A class is a blueprint, or template, for creating software objects.  Class names are capitalized by convention. An object created from a class is an INSTANCE and is said to be of the TYPE of that class. 
+# OBJECT - A software model that bundles the data (attributes) and operations (methods) relevant for modeling a thing or concept.  
+#           An object is created from a CLASS.
+# CLASS - A class is a blueprint, or template, for creating software objects. 
+#           Custom classes are TYPES, just like Turtles, integer, and strings are types.
+#           An object created from a class is an INSTANCE.  
 
 # Defining a Class
 #   A user-defined class must be defined using the class keyword before it is used.  
